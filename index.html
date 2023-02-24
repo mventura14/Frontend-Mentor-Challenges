@@ -12,17 +12,91 @@
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+
+    body{font-family: Arial, Helvetica, sans-serif;
+         background-color: rgb(157, 157, 238);
+    }
+
+    .container{position: relative;
+             
+              
+              height: 500PX;
+              width: 350px;
+              border-radius: 5%;
+              margin: auto;
+              padding: 0 0 10px 0;
+              background-color: white;
+              top: 100px;
+              
+              
+             
+              }
+    .qr{position: absolute;
+        width: 90%;
+        border-radius: 5%;
+        float: none;
+        margin: 15px 18px;
+
+      
+      }
+
+    .qr-text{ position: absolute;
+              
+              top: 63%;
+              text-align: center;
+              margin: 0 18px;
+              padding-bottom: 10px;
+              
+            }
+    .qr-text p:nth-child(1){
+                            
+                            font-size: 150%;
+                            font-weight: bold;
+                            
+                            }
+
+     .qr-text p:nth-child(2){
+                            
+                            font-size: 110%;
+                            }
+
+
+
   </style>
 </head>
 <body>
 
-  Improve your front-end skills by building projects
+<div class="container">
+  
+  <img class="qr" src="image-qr-code.png" alt="QR-Code">
+   
+  <div class="qr-text">
+  <p>Improve your front-end skills by building projects</p>
+  <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+  </div>
 
-  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Michael Ventura</a>.
   </div>
 </body>
 </html>
